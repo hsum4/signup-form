@@ -28,7 +28,29 @@ body {
 }
 
 #name-container {
+    font-family: 'norsebold';
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    position: relative;
+    top: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#name-container > p {
+    font-size: 5em;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#logo > img {
+    width: 100%;
 }
 
 .form {
