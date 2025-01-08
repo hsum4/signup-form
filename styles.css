@@ -14,14 +14,35 @@ body {
 
 .main-container {
     display: flex;
+    height: 100vh;
 }
 
 .side {
     background-image: url("assets/bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 
-    flex-grow: 1;
+    flex: 1
+}
+
+#name-container {
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: center;
+    box-sizing: border-box;
+
+    background-color: cadetblue;
+}
+
+#signup-form{
+    background-color: white;
 }
 
 #first-row, #second-row, #third-row {
