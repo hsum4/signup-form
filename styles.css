@@ -144,3 +144,9 @@ input:invalid {
     border: 1px solid #596D48;
     border-radius: 4px;
 }
+
+#login {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
