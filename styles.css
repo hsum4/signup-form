@@ -143,6 +143,8 @@ input:invalid {
     color: white;
     border: 1px solid #596D48;
     border-radius: 4px;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0 , 0.5);
 }
 
 #login {
