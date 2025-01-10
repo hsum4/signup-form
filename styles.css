@@ -89,12 +89,58 @@ body {
     background-color: white;
     box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.329);
     border: none;
+    margin-bottom: 35px;
 }
 
 fieldset > span {
+    display: block;
     font-size: 32px;
+    padding-top: 25px;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0 0 3px rgba(0, 0, 0 , 0.5);
+}
+
+input:invalid {
+    outline: none;
+    border-color: red;
+}
+
+#first-row {
+    padding-top: 25px;
 }
 
 #first-row, #second-row, #third-row {
     display:flex;
+    gap: 70px;
+    padding-bottom: 25px;
+}
+
+#signup-form > button {
+    padding: 12px 36px;
+    margin: 0 100px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 4px;
 }
