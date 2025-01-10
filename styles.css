@@ -69,15 +69,30 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 3;
     justify-content: center;
     box-sizing: border-box;
 
-    background-color: cadetblue;
+    background-color: #F9FAFB;
 }
 
-#signup-form{
+.form > * > * {
+    padding: 0 100px 0 100px;
+}
+
+#top-form {
+    font-size: 32px;
+    width: 32em;
+}
+
+#signup-form fieldset {
     background-color: white;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.329);
+    border: none;
+}
+
+fieldset > span {
+    font-size: 32px;
 }
 
 #first-row, #second-row, #third-row {
